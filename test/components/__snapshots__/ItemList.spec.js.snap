@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemList component renders correctly 1`] = `
+<ScrollViewMock
+  bounces={false}
+  contentContainerStyle={
+    Object {
+      "justifyContent": "flex-start",
+    }
+  }
+  pinchGestureEnabled={false}
+  showsVerticalScrollIndicator={false}
+  style={Object {}}
+/>
+`;

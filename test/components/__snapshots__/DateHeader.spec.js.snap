@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateHeader component renders correctly 1`] = `
+<Component
+  style={
+    Object {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "fontSize": 45,
+        }
+      }
+      testID="day"
+    >
+      5
+    </Component>
+    <Component
+      style={
+        Object {
+          "justifyContent": "center",
+          "marginLeft": 5,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "fontWeight": "bold",
+          }
+        }
+        testID="month"
+      >
+        FEB
+      </Component>
+      <Component
+        style={Object {}}
+        testID="year"
+      >
+        2019
+      </Component>
+    </Component>
+  </Component>
+  <Component
+    style={
+      Object {
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Component
+      style={Object {}}
+      testID="weekday"
+    >
+      TUESDAY
+    </Component>
+  </Component>
+</Component>
+`;

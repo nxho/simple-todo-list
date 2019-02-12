@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddItemButton component renders correctly 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#50E3A4",
+      "borderRadius": 100,
+      "height": 65,
+      "justifyContent": "center",
+      "width": 65,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "color": "#46BD8A",
+        "fontSize": 35,
+        "lineHeight": 35,
+        "textAlign": "center",
+        "textAlignVertical": "center",
+      }
+    }
+  >
+    +
+  </Component>
+</TouchableOpacity>
+`;
