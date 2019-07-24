@@ -4,17 +4,17 @@ import { StyleSheet, Text, View } from 'react-native';
 import TodoList from './components/TodoList';
 
 export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <TodoList />
-      </View>
-    );
-  }
+	render() {
+		return (
+			<View style={styles.container}>
+				<TodoList />
+			</View>
+		);
+	}
 }
 
 const styles = StyleSheet.create({
-  container: {
-  },
+	container: {
+	},
 });
 
